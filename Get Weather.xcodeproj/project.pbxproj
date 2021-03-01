@@ -58,13 +58,37 @@
 			children = (
 				489047DE25ED740500DAD622 /* AppDelegate.swift */,
 				489047E025ED740500DAD622 /* SceneDelegate.swift */,
-				489047E225ED740500DAD622 /* ViewController.swift */,
-				489047E425ED740500DAD622 /* Main.storyboard */,
+				489047F525ED742200DAD622 /* Controller */,
+				489047F425ED741C00DAD622 /* View */,
+				489047F325ED741700DAD622 /* Model */,
 				489047E725ED740900DAD622 /* Assets.xcassets */,
-				489047E925ED740900DAD622 /* LaunchScreen.storyboard */,
 				489047EC25ED740900DAD622 /* Info.plist */,
 			);
 			path = "Get Weather";
+			sourceTree = "<group>";
+		};
+		489047F325ED741700DAD622 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		489047F425ED741C00DAD622 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				489047E925ED740900DAD622 /* LaunchScreen.storyboard */,
+				489047E425ED740500DAD622 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		489047F525ED742200DAD622 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				489047E225ED740500DAD622 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
